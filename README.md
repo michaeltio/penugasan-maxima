@@ -4,7 +4,7 @@ Ini adalah project untuk test masuk Maxima yang dibuat dengan Next.js, Tailwind 
 
 ## Deskripsi
 
-Project ini adalah sebuah aplikasi web yang dibangun menggunakan teknologi Next.js untuk framework React, Tailwind CSS untuk styling, dan TypeScript untuk typing. Aplikasi ini memiliki beberapa fitur seperti [sebutkan fitur-fiturnya].
+Project ini adalah sebuah aplikasi web yang dibangun menggunakan teknologi Next.js untuk framework React, Tailwind CSS untuk styling, dan TypeScript untuk typing. Aplikasi ini memiliki fitur berupa memberikan cat facts yang menarik
 
 ## Teknologi yang Digunakan
 
