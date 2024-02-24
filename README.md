@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Test Masuk Maxima
 
-## Getting Started
+Ini adalah project untuk test masuk Maxima yang dibuat dengan Next.js, Tailwind CSS, dan TypeScript.
 
-First, run the development server:
+## Deskripsi
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Project ini adalah sebuah aplikasi web yang dibangun menggunakan teknologi Next.js untuk framework React, Tailwind CSS untuk styling, dan TypeScript untuk typing. Aplikasi ini memiliki beberapa fitur seperti [sebutkan fitur-fiturnya].
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Teknologi yang Digunakan
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Next.js
+- Tailwind CSS
+- TypeScript
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Cara Menjalankan Project
 
-## Learn More
+1. Pastikan Node.js telah terpasang di komputer Anda.
+2. Clone repositori ini ke komputer Anda.
+3. Buka terminal dan arahkan ke direktori project.
+4. Jalankan perintah `npm install` untuk menginstal semua dependensi.
+5. Jalankan perintah `npm run dev` untuk memulai server Next.js secara lokal.
+6. Buka browser dan akses `http://localhost:3000` untuk melihat aplikasi.
 
-To learn more about Next.js, take a look at the following resources:
+## Link Hosting
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Project ini telah di-hosting di [vercel](https://penugasan-maxima.vercel.app).
