@@ -4,6 +4,7 @@ import axios from "axios";
 
 interface Fact {
   fact: string;
+  length: number;
 }
 
 export default function Home() {
@@ -12,7 +13,6 @@ export default function Home() {
   const fetchData = async () => {
     const response = await axios.get("https://catfact.ninja/fact");
     setFactMsg(response.data);
-    console.log(response.data);
   };
 
   useEffect(() => {
@@ -20,9 +20,16 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="flex flex-col items-center justify-center w-screen h-screen gap-20 bg-[#eddcd9]">
-      <div className="max-w-xl text-center">
-        <h1 className="text-2xl md:text-5xl font-bold mb-8 text-[#264143]">
+    <div className="flex flex-col items-center justify-center w-screen h-screen bg-[#eddcd9] gap-10 ">
+      <div className=" text-center w-full h-1/3 px-8 md:px-24">
+        <h1
+          className={`
+          ${factMsg?.length && factMsg.length < 300 ? `text-xl` : `text-lg`} ${
+            factMsg?.length && factMsg.length < 300
+              ? `md:text-5xl`
+              : `md:text-3xl`
+          } font-bold mb-8 text-[#264143]`}
+        >
           {factMsg?.fact}
         </h1>
       </div>
